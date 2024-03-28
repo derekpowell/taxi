@@ -1,0 +1,80 @@
+entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
+bee	builds	a <subj> makes a <answer>	<answer> is made by <subj>	hive	<subj>	web	hole	nests
+bee	can	<subj> can <answer>	one animal that can <answer> is a <subj>	fly	<subj>	run	gallop	swim
+bird	can	<subj> can <answer>	one animal that can <answer> is a <subj>	fly	<subj>	run	gallop	swim
+fish	can	<subj> can <answer>	one animal that can <answer> is a <subj>	swim	<subj>	run	gallop	fly
+pig	covering	<subj> have <answer>	one animal that has <answer> is <subj>	skin	<subj>	scales	feathers	
+cat	food	food for a <subj> must be <answer>	<answer> is the appropriate food for a <subj>	meat	<subj>	grain	grass	
+cow	food	food for a <subj> must be <answer>	<answer> is the appropriate food for a <subj>	grain	<subj>	meat	insects	
+bee	genus	the animal group to which <subj> belong is commonly called <answer>	one type of <answer> is a <subj>	insects	<subj>	mammals	reptiles	aves
+bird	genus	the animal group to which <subj> belong is commonly called <answer>	one type of <answer> is a <subj>	aves	<subj>	mammals	reptiles	insects
+cat	genus	the animal group to which <subj> belong is commonly called <answer>	one type of <answer> is a <subj>	mammals	<subj>	aves	reptiles	insects
+cow	genus	the animal group to which <subj> belong is commonly called <answer>	one type of <answer> is a <subj>	mammals	<subj>	aves	reptiles	insects
+dog	genus	the animal group to which <subj> belong is commonly called <answer>	one type of <answer> is a <subj>	mammals	<subj>	aves	reptiles	insects
+pig	genus	the animal group to which <subj> belong is commonly called <answer>	one type of <answer> is a <subj>	mammals	<subj>	insects	reptiles	aves
+bird	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	hatched from an egg	<subj>	born alone	born in a litter	
+cat	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	born in a litter	<subj>	hatched from an egg	born alone	
+cow	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	born alone	<subj>	hatched from an egg	born in a litter	
+dog	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	born in a litter	<subj>	hatched from an egg	born alone	
+fish	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	hatched from an egg	<subj>	born alone	born in a litter	
+snake	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	hatched from an egg	<subj>	born alone	born in a litter	
+pig	give_birth	a baby <subj> is <answer>	one animal whose offspring is <answer> is a <subj>	born in a litter	<subj>	hatched from an egg	born alone	
+bee	has	<subj> have <answer>	<answer> are found on <subj>	wings	<subj>	fins	four legs	
+bird	has	<subj> have <answer>	<answer> are found on <subj>	wings	<subj>	fins	four legs	
+bird	has	<subj> have <answer>	<answer> are found on <subj>	feathers	<subj>	scales	fur	
+cat	has	a <subj> has <answer>	an animal with <answer> is a <subj>	claws	<subj>	flippers	fins	wings
+cat	has	<subj> have <answer>	<answer> are found on <subj>	fur	<subj>	scales	feathers	
+cow	has	<subj> have <answer>	<answer> are found on <subj>	hooves	<subj>	wings	fins	tentacles
+cow	has	<subj> have <answer>	<answer> are found on <subj>	fur	<subj>	scales	feathers	
+dog	has	<subj> have <answer>	<answer> are found on <subj>	fur	<subj>	scales	feathers	
+fish	has	<subj> have <answer>	one animal that has <answer> is <subj>	scales	<subj>	fur	feathers	
+fish	has	<subj> have <answer>	<answer> are found on <subj>	fins	<subj>	wings	four legs	tentacles
+snake	has	<subj> have <answer>	one animal that has <answer> is <subj>	scales	<subj>	fur	feathers	
+pig	has	<subj> have <answer>	<answer> are found on <subj>	hooves	<subj>	wings	fins	tentacles
+cat	is_domesticated	most <subj> are <answer>	one animal that is typically <answer> is a <subj>	domesticated	<subj>	wild		
+cow	is_domesticated	most <subj> are <answer>	one animal that is typically <answer> is a <subj>	domesticated	<subj>	wild		
+dog	is_domesticated	most <subj> are <answer>	one animal that is typically <answer> is a <subj>	domesticated	<subj>	wild		
+bird	is_wild	most <subj> are <answer>	one animal that is typically <answer> is a <subj>	wild	<subj>	domesticated		
+fish	is_wild	most <subj> are <answer>	one animal that is typically <answer> is a <subj>	wild	<subj>	domesticated		
+snake	is_wild	most <subj> are <answer>	one animal that is typically <answer> is a <subj>	wild	<subj>	domesticated		
+bee	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	six legs	<subj>	two legs	no legs	four legs
+cat	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	four legs	<subj>	two legs	six legs	eight legs
+cow	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	four legs	<subj>	two legs	six legs	eight legs
+dog	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	four legs	<subj>	two legs	six legs	no legs
+fish	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	no legs	<subj>	two legs	six legs	four legs
+snake	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	no legs	<subj>	two legs	six legs	four legs
+pig	leg_count	<subj> are animals that have <answer>	<answer> can be found on <subj>	four legs	<subj>	two legs	six legs	eight legs
+cat	like_to_interact	<subj> are an animal people <answer>	one animal people <answer> is a <subj>	keep as pets	<subj>	raise for slaughter	avoid	catch and eat
+cow	like_to_interact	<subj> are an animal people <answer>	one animal people <answer> is a <subj>	keep for their milk	<subj>	keep as pets	avoid	catch and eat
+dog	like_to_interact	<subj> are an animal people <answer>	one animal people <answer> is a <subj>	keep as pets	<subj>	keep for meat	avoid	keep for their milk
+fish	like_to_interact	<subj> are an animal people <answer>	one animal people <answer> is a <subj>	catch and eat	<subj>	keep for meat	avoid	keep for their milk
+snake	like_to_interact	<subj> are an animal people <answer>	one animal people <answer> is a <subj>	avoid	<subj>	keep as pets	raise for slaughter	keep for their milk
+pig	like_to_interact	<subj> are an animal people <answer>	one animal people <answer> is a <subj>	keep for meat	<subj>	keep as pets	try to avoid	keep for their milk
+cat	likes_to	<subj> like to <answer>	to <answer> is something enjoyed by <subj>	chase	<subj>	fly	graze	fetch
+cow	likes_to	<subj> like to <answer>	to <answer> is something enjoyed by <subj>	graze	<subj>	fly	chase	fetch
+dog	likes_to	<subj> like to <answer>	to <answer> is something enjoyed by <subj>	fetch	<subj>	fly	graze	
+pig	likes_to	<subj> like to <answer>	to <answer> is something enjoyed by <subj>	eat	<subj>	fly	fetch	
+fish	live_in	<subj> live in <answer>	<answer> is the home of <subj>	water	<subj>	caves	trees	nests
+pig	live_in	<subj> like to be in <answer>	<answer> is the home of <subj>	mud	<subj>	caves	trees	nests
+bee	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	buzz	<subj>	bark	moo	meow
+bird	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	chirp	<subj>	bark	moo	meow
+cat	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	meow	<subj>	bark	moo	chirp
+cow	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	moo	<subj>	meow	bark	hiss
+dog	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	bark	<subj>	meow	moo	chirp
+snake	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	hiss	<subj>	bark	moo	chirp
+pig	makes_sound	a sound a <subj> makes is <answer>	<answer> is a sound made by a <subj>	oink	<subj>	meow	bark	moo
+bee	moves	<subj> move by <answer>	<answer> is the movement of <subj>	flying	<subj>	galloping	slithering	hopping
+bird	moves	<subj> move by <answer>	<answer> is the movement of <subj>	flying	<subj>	galloping	slithering	swimming
+cat	moves	<subj> move by <answer>	<answer> is the movement of <subj>	walking	<subj>	slithering	flying	hopping
+cow	moves	<subj> move by <answer>	<answer> is the movement of <subj>	walking	<subj>	slithering	flying	hopping
+dog	moves	<subj> move by <answer>	<answer> is the movement of <subj>	walking	<subj>	slithering	flying	hopping
+fish	moves	<subj> move by <answer>	<answer> is the movement of <subj>	swimming	<subj>	galloping	flying	walking
+snake	moves	<subj> move by <answer>	<answer> is the movement of <subj>	slithering	<subj>	galloping	flying	walking
+pig	moves	<subj> move by <answer>	<answer> is the movement of <subj>	walking	<subj>	slithering	flying	hopping
+bee	produces	a <subj> makes <answer>	<answer> is made by <subj>	honey	<subj>	webs	caviar	milk
+cow	produces	a <subj> makes <answer>	<answer> is made by <subj>	milk	<subj>	webs	caviar	honey
+dog	baby_name	a baby <subj> is called a <answer>	a <answer> is a baby <subj>	puppy	<subj>	kitten	calf	piglet
+cat	baby_name	a baby <subj> is called a <answer>	a <answer> is a baby <subj>	kitten	<subj>	puppy	calf	piglet
+cow	baby_name	a baby <subj> is called a <answer>	a <answer> is a baby <subj>	calf	<subj>	puppy	chick	piglet
+bird	baby_name	a baby <subj> is called a <answer>	a <answer> is a baby <subj>	chick	<subj>	puppy	calf	piglet
+pig	baby_name	a baby <subj> is called a <answer>	a <answer> is a baby <subj>	piglet	<subj>	puppy	calf	kitten

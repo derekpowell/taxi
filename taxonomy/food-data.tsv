@@ -1,0 +1,31 @@
+entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
+cheese	comes_from	<subj> comes from	<answer> is how you get <answer>	cultured milk	<subj>	butchering an animal	growing on trees	the root of a plant
+meat	comes_from	<subj> comes from	<answer> is how you get <answer>	butchering an animal	<subj>	cultured milk	growing on trees	the root of a plant
+apple	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
+orange	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
+potato	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	the root of a plant	<subj>	cultured milk	butchering an animal	growing on trees
+cheese	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in fat and protein	<subj>	high in protein	rich in vitamins	
+meat	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in protein	<subj>	high in fat and protein	rich in vitamins	
+apple	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
+banana	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
+cruciferous vegetable	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
+orange	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
+meat	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	animal product	<subj>	vegetable	dairy product	fruit
+cheese	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	dairy product	<subj>	vegetable	animal product	fruit
+apple	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
+oange	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
+banana	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
+cruciferous vegetable	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	vegetable	<subj>	fruit	animal product	dairy product
+potato	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	vegetable	<subj>	fruit	animal product	dairy product
+banana	color	the color of a <subj> is <answer>	a <answer> food is <subj>	yellow	<subj>	orange	green	red
+orange	color	the color of a <subj> is <answer>	a <answer> food is <subj>	orange	<subj>	yellow	green	red
+cruciferous vegetable	color	the color of a <subj> is <answer>	a <answer> food is <subj>	green	<subj>	yellow	orange	red
+meat	preparation	<subj> is sometimes served <answer>	a food sometimes served <answer> is <subj>	ground	<subj>	melted	peeled	mashed
+cheese	preparation	<subj> is sometimes served <answer>	a food sometimes served <answer> is <subj>	melted	<subj>	ground	peeled	mashed
+banana	preparation	<subj> is sometimes served <answer>	a food sometimes served <answer> is <subj>	peeled	<subj>	ground	melted	mashed
+potato	preparation	<subj> is sometimes served <answer>	a food sometimes served <answer> is <subj>	mashed	<subj>	ground	melted	peeled
+meat	remove	when eating a <subj> people do not eat the <answer>	a food where the <answer> is not eaten is a <subj>	bone	<subj>	core	peel	rind
+cheese	remove	when eating a <subj> people do not eat the <answer>	a food where the <answer> is not eaten is a <subj>	rind	<subj>	core	peel	bone
+orange	remove	when eating a <subj> people do not eat the <answer>	a food where the <answer> is not eaten is a <subj>	peel	<subj>	core	rind	bone
+banana	remove	when eating a <subj> people do not eat the <answer>	a food where the <answer> is not eaten is a <subj>	peel	<subj>	core	rind	bone
+apple	remove	when eating a <subj> people do not eat the <answer>	a food where the <answer> is not eaten is a <subj>	core	<subj>	rind	peel	bone

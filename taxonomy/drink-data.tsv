@@ -1,0 +1,37 @@
+entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
+beer	contains	<subj> contains <answer>	a beverage that contains <answer> is <subj>	alcohol	<subj>	caffeine	high sugar	
+wine	contains	<subj> contains <answer>	a beverage that contains <answer> is <subj>	alcohol	<subj>	caffeine	high sugar	
+whisky	contains	<subj> contains <answer>	a beverage that contains <answer> is <subj>	alcohol	<subj>	caffeine	high sugar	
+coffee	contains	<subj> contains <answer>	a beverage that contains <answer> is <subj>	caffeine	<subj>	alcohol	high sugar	
+tea	contains	<subj> contains <answer>	a beverage that contains <answer> is <subj>	caffeine	<subj>	alcohol	high sugar	
+soda	contains	<subj> contains <answer>	a beverage that contains <answer> is <subj>	high sugar	<subj>	alcohol	caffeine	
+wine	made_by	<subj> is made by <answer>	a beverage made by <answer> is	fermentation	<subj>	distillation	steeping	manufacturing
+whisky	made_by	<subj> is made by <answer>	a beverage made by <answer> is	distillation	<subj>	fermentation	steeping	manufacturing
+tea	made_by	<subj> is made by <answer>	a beverage made by <answer> is	steeping	<subj>	fermentation	distillation	manufacturing
+whisky	made_with	an important ingredient in <subj> is <answer>	<answer> is an important ingredient in <subj>	grain	<subj>	grapes	coffee beans	plant leaves
+beer	made_with	an important ingredient in <subj> is <answer>	<answer> is an important ingredient in <subj>	grain	<subj>	grapes	coffee beans	plant leaves
+wine	made_with	an important ingredient in <subj> is <answer>	<answer> is an important ingredient in <subj>	grapes	<subj>	grain	coffee beans	plant leaves
+coffee	made_with	an important ingredient in <subj> is <answer>	<answer> is an important ingredient in <subj>	coffee beans	<subj>	grain	grapes	plant leaves
+tea	made_with	an important ingredient in <subj> is <answer>	<answer> is an important ingredient in <subj>	plant leaves	<subj>	grain	grapes	coffee beans
+beer	served	<subj> is best served <answer>	<answer> is the best way to serve <subj>	cold but not iced	<subj>	chilled or room temperature	hot or iced	straight
+soda	served	<subj> is best served <answer>	<answer> is the best way to serve <subj>	ice cold	<subj>	chilled or room temperature	cold but not iced	straight
+wine	served	<subj> is best served <answer>	<answer> is the best way to serve <subj>	chilled	<subj>	ice cold	hot or iced	straight
+whisky	served	<subj> is best served <answer>	<answer> is the best way to serve <subj>	straight	<subj>	cold but not iced	hot or iced	straight
+coffee	served	<subj> is best served <answer>	<answer> is the best way to serve <subj>	hot or iced	<subj>	cold but not iced	chilled	straight
+tea	served	<subj> is best served <answer>	<answer> is the best way to serve <subj>	hot or iced	<subj>	cold but not iced	chilled	straight
+coffee	flavor	the flavor of <subj> is marked by <answer>	a beverage whose flavor is marked by <answer> is <subj>	bitterness	<subj>	sweetness	burn	
+tea	flavor	the flavor of <subj> is marked by <answer>	a beverage whose flavor is marked by <answer> is <subj>	bitterness	<subj>	sweetness	burn	
+soda	flavor	the flavor of <subj> is marked by <answer>	a beverage whose flavor is marked by <answer> is <subj>	sweetness	<subj>	burn	bitterness	
+coffee	served_in	<subj> is served in a <answer>	a <answer> is used to serve <subj>	mug	<subj>	wine glass	pint glass	tumbler
+tea	served_in	<subj> is served in a <answer>	a <answer> is used to serve <subj>	mug	<subj>	wine glass	pint glass	tumbler
+beer	served_in	<subj> is served in a <answer>	a <answer> is used to serve <subj>	pint glass	<subj>	wine glass	mug	tumbler
+wine	served_in	<subj> is served in a <answer>	a <answer> is used to serve <subj>	wine glass	<subj>	pint glass	mug	tumbler
+whisky	served_in	<subj> is served in a <answer>	a <answer> is used to serve <subj>	tumbler	<subj>	pint glass	mug	wine glass
+wine	served_from	<subj> is stored and served from a <answer>	a <answer> stores and serves <subj>	wine bottle	<subj>	beer keg	soda fountain	kettle
+beer	served_from	<subj> is stored and served from a <answer>	a <answer> stores and serves <subj>	beer keg	<subj>	wine bottle	soda fountain	kettle
+whisky	served_from	<subj> is stored and served from a <answer>	a <answer> stores and serves <subj>	decanter	<subj>	beer keg	soda fountain	kettle
+tea	served_from	<subj> is stored and served from a <answer>	a <answer> stores and serves <subj>	kettle	<subj>	beer keg	decanter	soda fountain
+beer	popular_at	<subj> is a beverage served at a <answer>	a beverage served at a <answer> is <subj>	brewery	<subj>	winery	coffee shop	fast food restaurant
+wine	popular_at	<subj> is a beverage served at a <answer>	a beverage served at a <answer> is <subj>	winery	<subj>	brewery	coffee shop	fast food restaurant
+coffee	popular_at	<subj> is a beverage served at a <answer>	a beverage served at a <answer> is <subj>	coffee shop	<subj>	winery	brewery	fast food restaurant
+soda	popular_at	<subj> is a beverage served at a <answer>	a beverage served at a <answer> is <subj>	fast food restaurant	<subj>	winery	coffee shop	brewery

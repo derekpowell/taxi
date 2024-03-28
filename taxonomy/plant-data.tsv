@@ -1,0 +1,38 @@
+entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
+cactus	has_many	a <subj> typically has many <answer>	a plant with many <answer> is a <subj>	needles	<subj>	leaves	tendrils	gills
+flowering tree	has_many	a <subj> typically has many <answer>	a plant with many <answer> is a <subj>	leaves	<subj>	needles	gills	gills
+conifer tree	has_many	a <subj> typically has many <answer>	a plant with many <answer> is a <subj>	needles	<subj>	tendrils	gills	blades
+mushroom	has_many	a <subj> typically has many <answer>	a plant with many <answer> is a <subj>	gills	<subj>	leaves	needles	tendrils
+vine	has_many	a <subj> typically has many <answer>	a plant with many <answer> is a <subj>	tendrils	<subj>	gills	blades	needles
+grass	has_many	a <subj> typically has many <answer>	a plant with many <answer> is a <subj>	blades	<subj>	gills	leaves	needles
+cactus	grows	a <subj> grows best in places that are <answer>	a plan that grows best in <answer> is a <subj>	dry	<subj>	damp	water	
+mushroom	grows	a <subj> grows best in places that are <answer>	a plan that grows best in <answer> is a <subj>	damp	<subj>	dry	water	
+aquatic plant	grows	a <subj> grows best in places that are <answer>	a plan that grows best in <answer> is a <subj>	water	<subj>	dry	damp	
+cactus	adapted_to	a <subj> is adapted to <answer>	one plant that has adapted to <answer> is a <subj>	store water	<subj>	live in water	absorb nutrients	climb
+vine	adapted_to	a <subj> is adapted to <answer>	one plant that has adapted to <answer> is a <subj>	climb	<subj>	store water	absorb nutrients	climb
+aquatic plant	adapted_to	a <subj> is adapted to <answer>	one plant that has adapted to <answer> is a <subj>	live in water	<subj>	climb	store water	absorb nutrients
+mushroom	adapted_to	a <subj> is adapted to <answer>	one plant that has adapted to <answer> is a <subj>	absorb nutrients	<subj>	climb	store water	live in water
+cactus	habitat	a <subj> is generally found in <answer>	a plant found in <answer> is a <subj>	deserts	<subj>	woodlands	mountains	swamps
+trees	habitat	a <subj> is generally found in <answer>	a plant found in <answer> is a <subj>	woodlands	<subj>	deserts	rainforests	swamps
+cactus	reproduces_by	a <subj> reproduces through <answer>	a plant that reproduces by <answer> is a <subj>	flowering	<subj>	spores	cones	eggs
+flowering tree	reproduces_by	a <subj> reproduces through <answer>	a plant that reproduces by <answer> is a <subj>	flowering	<subj>	spores	cones	eggs
+mushroom	reproduces_by	a <subj> reproduces through <answer>	a plant that reproduces by <answer> is a <subj>	spores	<subj>	flowering	cones	eggs
+aquatic plant	habitat	<subj> is generally found in <answer>	a plant found in <answer> is a <subj>	swamps	<subj>	deserts	woodlands	
+grass	used_for	<subj> is sometimes used for <answer>	a plant that can be used for <answer> is a <subj>	grazing	<subj>	shade	covering walls	cooking
+vine	used_for	<subj> is sometimes used for <answer>	a plant that can be used for <answer> is a <subj>	covering walls	<subj>	shade	grazing	cooking
+mushroom	used_for	<subj> is sometimes used for <answer>	a plant that can be used for <answer> is a <subj>	cooking	<subj>	shade	covering walls	grazing
+flowering tree	used_for	<subj> is sometimes used for <answer>	a plant that can be used for <answer> is a <subj>	shade	<subj>	grazing	covering walls	cooking
+conifer tree	used_for	<subj> is sometimes used for <answer>	a plant that can be used for <answer> is a <subj>	shade	<subj>	grazing	covering walls	cooking
+flowering tree	largest_part	the largest part of a <subj> is its <answer>	a plant whose largest part is its <answer> is a <subj>	trunk	<subj>	stem	blade	flower
+confier tree	largest_part	the largest part of a <subj> is its <answer>	a plant whose largest part is its <answer> is a <subj>	trunk	<subj>	stem	blade	flower
+grass	largest_part	the largest part of a <subj> is its <answer>	a plant whose largest part is its <answer> is a <subj>	blade	<subj>	stem	trunk	flower
+cactus	largest_part	the largest part of a <subj> is its <answer>	a plant whose largest part is its <answer> is a <subj>	stem	<subj>	blade	trunk	flower
+flowering tree	ends	the ends of the stems of a <subj> hold its <answer>	a plant whose stems have <answer> on the ends is a <subj>	leaves	<subj>	hood	needles	stem
+confier tree	ends	the ends of the stems of a <subj> hold its <answer>	a plant whose stems have <answer> on the ends is a <subj>	needles	<subj>	hood	needles	stem
+flowering tree	gets_energy	a <subj> gets its energy using its <answer>	a plant that gets is energy using its <answer> is a <subj>	leaves	<subj>	needles	blade	mycelium
+confier tree	gets_energy	a <subj> gets its energy using its <answer>	a plant that gets is energy using its <answer> is a <subj>	needles	<subj>	leaves	blade	mycelium
+mushroom	gets_energy	a <subj> gets its energy using its <answer>	a plant that gets is energy using its <answer> is a <subj>	mycelium	<subj>	needles	blade	leaves
+grass	gets_energy	a <subj> gets its energy using its <answer>	a plant that gets is energy using its <answer> is a <subj>	blade	<subj>	succulent stem	needles	mycelium
+cactus	gets_energy	a <subj> gets its energy using its <answer>	a plant that gets is energy using its <answer> is a <subj>	succulent stem	<subj>	blade	needles	mycelium
+conifer tree	reproduces_by	a <subj> reproduces through <answer>	a plant that reproduces by <answer> is a <subj>	cones	<subj>	flowering	spores	eggs
+vine	gets_energy	a <subj> gets its energy using its <answer>	a plant that reproduces by <answer> is a <subj>	leaves	<subj>	blade	needles	mycelium

@@ -1,0 +1,34 @@
+entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
+car	travel	a <subj> travels <answer>	a vehicle that travels <answer> is a <subj>	on roads	<subj>	on water	in the air	
+semi-truck	travel	a <subj> travels <answer>	a vehicle that travels <answer> is a <subj>	on roads	<subj>	on water	in the air	
+motorcycle	travel	a <subj> travels <answer>	a vehicle that travels <answer> is a <subj>	on roads	<subj>	on water	in the air	
+airplane	travel	a <subj> travels <answer>	a vehicle that travels <answer> is a <subj>	in the air	<subj>	on water	on roads	
+speedboat	travel	a <subj> travels <answer>	a vehicle that travels <answer> is a <subj>	on water	<subj>	on roads	in the air	
+jetski	travel	a <subj> travels <answer>	a vehicle that travels <answer> is a <subj>	on water	<subj>	on roads	in the air	
+car	steered_with	a <subj> is steered with <answer>	<answer> is how one steers a <subj>	a wheel	<subj>	a yoke	handlebars	
+semi-truck	steered_with	a <subj> is steered with <answer>	<answer> is how one steers a <subj>	a wheel	<subj>	a yoke	handlebars	
+speedboat	steered_with	a <subj> is steered with <answer>	<answer> is how one steers a <subj>	a wheel	<subj>	a yoke	handlebars	
+airplane	steered_with	a <subj> is steered with <answer>	<answer> is how one steers a <subj>	a yoke	<subj>	a wheel	handlebars	
+motorcycle	steered_with	a <subj> is steered with <answer>	<answer> is how one steers a <subj>	handlebars	<subj>	a wheel	a yoke	
+jetski	steered_with	a <subj> is steered with <answer>	<answer> is how one steers a <subj>	handlebars	<subj>	a wheel	a yoke	
+car	purpose	a <subj> is primarily for <answer>	a vehicle primarily for <answer> is a <subj>	driving passengers	<subj>	pulling cargo	water recreation	flying
+semi-truck	purpose	a <subj> is primarily for <answer>	a vehicle primarily for <answer> is a <subj>	pulling cargo	<subj>	driving passengers	water recreation	flying
+speedboat	purpose	a <subj> is primarily for <answer>	a vehicle primarily for <answer> is a <subj>	water recreation	<subj>	driving passengers	pulling cargo	flying
+jetski	purpose	a <subj> is primarily for <answer>	a vehicle primarily for <answer> is a <subj>	water recreation	<subj>	driving passengers	pulling cargo	flying
+airplane	purpose	a <subj> is primarily for <answer>	a vehicle primarily for <answer> is a <subj>	flying	<subj>	driving passengers	pulling cargo	flying
+speedboat	stops_at	a <subj> stops at a <answer>	a vehicle that stops at a <answer> is a <subj>	dock	<subj>	parking space	airport	loading dock
+jetski	stops_at	a <subj> stops at a <answer>	a vehicle that stops at a <answer> is a <subj>	dock	<subj>	parking space	airport	loading dock
+airplane	stops_at	a <subj> stops at a <answer>	a vehicle that stops at a <answer> is a <subj>	airport	<subj>	parking space	dock	loading dock
+motorcycle	stops_at	a <subj> stops at a <answer>	a vehicle that stops at a <answer> is a <subj>	parking space	<subj>	airport	dock	loading dock
+car	stops_at	a <subj> stops at a <answer>	a vehicle that stops at a <answer> is a <subj>	parking space	<subj>	airport	dock	loading dock
+car	rear_has	the rear of a <subj> has a <answer>	a <answer> is at the rear end of a <subj>	trunk	<subj>	propeller	water jet	trailer hitch
+semi-truck	rear_has	the rear of a <subj> has a <answer>	a <answer> is at the rear end of a <subj>	trailer hitch	<subj>	propeller	water jet	trunk
+speedboat	rear_has	the rear of a <subj> has a <answer>	a <answer> is at the rear end of a <subj>	propeller	<subj>	trunk	water jet	trailer hitch
+jetski	rear_has	the rear of a <subj> has a <answer>	a <answer> is at the rear end of a <subj>	water jet	<subj>	trunk	propeller	trailer hitch
+airplane	rear_has	the rear of a <subj> has a <answer>	a <answer> is at the rear end of a <subj>	tail	<subj>	trunk	water jet	trailer hitch
+car	steers_by	a <subj> steers by <answer>	<answer> is the mechanism for steering a <subj>	turning both front wheels	<subj>	turning its rudder in water	moving its flaps and rudder	its rider turning and leaning
+semi-truck	steers_by	a <subj> steers by <answer>	<answer> is the mechanism for steering a <subj>	turning both front wheels	<subj>	turning its rudder in water	moving its flaps and rudder	its rider turning and leaning
+motorcycle	steers_by	a <subj> steers by <answer>	<answer> is the mechanism for steering a <subj>	its rider turning and leaning	<subj>	turning its rudder in water	moving its flaps and rudder	turning both front wheels
+airplane	steers_by	a <subj> steers by <answer>	<answer> is the mechanism for steering a <subj>	moving its flaps and rudder	<subj>	turning its rudder in water	moving its flaps and rudder	directing its water jet
+jetski	steers_by	a <subj> steers by <answer>	<answer> is the mechanism for steering a <subj>	directing its water jet	<subj>	turning its rudder in water	moving its flaps and rudder	turning its rudder in water
+speedboat	steers_by	a <subj> steers by <answer>	<answer> is the mechanism for steering a <subj>	turning its rudder in water	<subj>	turning its rudder in water	moving its flaps and rudder	turning both front wheels

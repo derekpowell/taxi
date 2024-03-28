@@ -1,0 +1,45 @@
+entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
+acoustic guitar	has	a <subj> has <answer>	an instrument with <answer> is a <subj>	six strings	<subj>	four strings	three valves	17 pads
+electric guitar	has	a <subj> has <answer>	an instrument with <answer> is a <subj>	six strings	<subj>	four strings	three valves	17 pads
+violin	has	a <subj> has <answer>	an instrument with <answer> is a <subj>	four strings	<subj>	six strings	three valves	88 keys
+piano	has	a <subj> has <answer>	an instrument with <answer> is a <subj>	88 keys	<subj>	four strings	three valves	17 pads
+trumpet	has	a <subj> has <answer>	an instrument with <answer> is a <subj>	three valves	<subj>	six strings	88 keys	17 pads
+violin	played_from	a <subj> is played while held <answer>	an instrument played while held <answer> is a <subj>	in the crook of the neck	<subj>	on a knee	to the player's mouth	
+acoustic guitar	played_from	a <subj> is played while held <answer>	an instrument played <answer> is a <subj>	on a knee	<subj>	in the crook of the neck	to the player's mouth	to the player's mouth
+electric guitar	played_from	a <subj> is played while held <answer>	an instrument played <answer> is a <subj>	on a knee	<subj>	to the player's mouth	in the crook of the neck	
+clarinet	played_from	a <subj> is played while held <answer>	an instrument played <answer> is a <subj>	to the player's mouth	<subj>	in the crook of the neck	on a knee	
+trumpet	played_from	a <subj> is played while held <answer>	an instrument played <answer> is a <subj>	to the player's mouth	<subj>	in the crook of the neck	on a knee	
+acoustic guitar	played_on	a player's hands rest on the <subj>'s <answer>	players place their hands on the <answer> of a <subj>	fretted neck	<subj>	fretless neck	mouthpiece	keyboard
+electric guitar	played_on	a player's hands rest on the <subj>'s <answer>	players place their hands on the <answer> of a <subj>	fretted neck	<subj>	fretless neck	mouthpiece	keyboard
+violin	played_on	a player's hands rest on the <subj>'s <answer>	players place their hands on the <answer> of a <subj>	fretless neck	<subj>	fretted neck	mouthpiece	keyboard
+piano	played_on	a player's hands rest on the <subj>'s <answer>	players place their hands on the <answer> of a <subj>	keyboard	<subj>	fretted neck	mouthpiece	fretless neck
+trumpet	played_on	a player's hands rest on the <subj>'s <answer>	players place their hands on the <answer> of a <subj>	mouthpiece	<subj>	fretted neck	keyboard	fretless neck
+clarinet	played_on	a player's hands rest on the <subj>'s <answer>	players place their hands on the <answer> of a <subj>	mouthpiece	<subj>	fretted neck	keyboard	fretless neck
+piano	makes_sound	one key to the sound of a <subj> is its <answer>	an instrument whose <answer> is key to its sound is a <subj>	hammer	<subj>	sound hole	pickup	bell
+acoustic guitar	makes_sound	one key to the sound of a <subj> is its <answer>	an instrument whose <answer> is key to its sound is a <subj>	sound hole	<subj>	hammer	pickup	bell
+electric guitar	makes_sound	one key to the sound of a <subj> is its <answer>	an instrument whose <answer> is key to its sound is a <subj>	pickup	<subj>	hammer	sound hole	bell
+clarinet	makes_sound	one key to the sound of a <subj> is its <answer>	an instrument whose <answer> is key to its sound is a <subj>	bell	<subj>	hammer	sound hole	pickup
+trumpet	makes_sound	one key to the sound of a <subj> is its <answer>	an instrument whose <answer> is key to its sound is a <subj>	bell	<subj>	hammer	sound hole	pickup
+acoustic guitar	tuned	a <subj> is tuned with its <answer>	an instrument tuned with <answer> is a <subj>	tuning pegs	<subj>	tuning pins	adjusting slide	barrel
+electric guitar	tuned	a <subj> is tuned with its <answer>	an instrument tuned with <answer> is a <subj>	tuning pegs	<subj>	tuning pins	adjusting slide	barrel
+violin	tuned	a <subj> is tuned with its <answer>	an instrument tuned with <answer> is a <subj>	tuning pegs	<subj>	tuning pins	adjusting slide	barrel
+clarinet	tuned	a <subj> is tuned with its <answer>	an instrument tuned with <answer> is a <subj>	barrel	<subj>	tuning pins	adjusting slide	tuning pegs
+trumpet	tuned	a <subj> is tuned with its <answer>	an instrument tuned with <answer> is a <subj>	adjusting slide	<subj>	tuning pins	tuning pegs	barrel
+piano	tuned	a <subj> is tuned with its <answer>	an instrument tuned with <answer> is a <subj>	tuning pins	<subj>	tuning pegs	adjusting slide	barrel
+violin	end	on the end of a <subj> is its <answer>	a <answer> is on the end of a <subj>	head	<subj>	bell	legs	
+electric guitar	end	on the end of a <subj> is its <answer>	a <answer> is on the end of a <subj>	head	<subj>	bell	legs	
+acoustic guitar	end	on the end of a <subj> is its <answer>	a <answer> is on the end of a <subj>	head	<subj>	bell	legs	
+trumpet	end	on the end of a <subj> is its <answer>	a <answer> is on the end of a <subj>	bell	<subj>	head	legs	
+clarinet	end	on the end of a <subj> is its <answer>	a <answer> is on the end of a <subj>	bell	<subj>	head	legs	
+trumpet	lowest_note	the lowest note on a <subj> is played with <answer>	playing with <answer> plays the lowest note on a <subj>	all three valves open	<subj>	the leftmost key	the largest string	all tone holes covered
+piano	lowest_note	the lowest note on a <subj> is played with <answer>	playing with <answer> plays the lowest note on a <subj>	the leftmost key	<subj>	all tone holes covered	the largest string	all three valves open
+electric guitar	lowest_note	the lowest note on a <subj> is played with <answer>	playing with <answer> plays the lowest note on a <subj>	the largest string	<subj>	all tone holes covered	the leftmost key	all three valves open
+acoustic guitar	lowest_note	the lowest note on a <subj> is played with <answer>	playing with <answer> plays the lowest note on a <subj>	the largest string	<subj>	all tone holes covered	the leftmost key	all three valves open
+violin	lowest_note	the lowest note on a <subj> is played with <answer>	playing with <answer> plays the lowest note on a <subj>	the largest string	<subj>	all tone holes covered	the leftmost key	all three valves open
+violin	played_by	a <subj> is played by <answer>	<answer> is the way to play a <subj>	bowing the strings	<subj>	strumming the strings	pressing the keys	blowing into the mouthpiece
+acoustic guitar	played_by	a <subj> is played by <answer>	<answer> is the way to play a <subj>	strumming the strings	<subj>	bowing the strings	pressing the keys	blowing into the mouthpiece
+electric guitar	played_by	a <subj> is played by <answer>	<answer> is the way to play a <subj>	strumming the strings	<subj>	bowing the strings	pressing the keys	blowing into the mouthpiece
+piano	played_by	a <subj> is played by <answer>	<answer> is the way to play a <subj>	pressing the keys	<subj>	strumming the strings	bowing the strings	blowing into the mouthpiece
+trumpet	played_by	a <subj> is played by <answer>	<answer> is the way to play a <subj>	blowing into the mouthpiece	<subj>	strumming the strings	bowing the strings	pressing the keys
+clarinet	played_by	a <subj> is played by <answer>	<answer> is the way to play a <subj>	blowing into the mouthpiece	<subj>	strumming the strings	bowing the strings	pressing the keys
+piano	end	on the end of a <subj> is its <answer>	a <answer> is on the end of a <subj>	legs	<subj>	head	bell	
