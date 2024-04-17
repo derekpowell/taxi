@@ -4,16 +4,16 @@ meat	comes_from	<subj> comes from	<answer> is how you get <answer>	butchering an
 apple	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
 orange	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
 potato	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	the root of a plant	<subj>	cultured milk	butchering an animal	growing on trees
-cheese	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in fat and protein	<subj>	high in protein	rich in vitamins	
-meat	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in protein	<subj>	high in fat and protein	rich in vitamins	
-apple	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
-banana	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
-cruciferous vegetable	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
-orange	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein	
+cheese	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in fat and protein	<subj>	high in protein	rich in vitamins
+meat	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in protein	<subj>	high in fat and protein	rich in vitamins
+apple	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein
+banana	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein
+cruciferous vegetable	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein
+orange	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein
 meat	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	animal product	<subj>	vegetable	dairy product	fruit
 cheese	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	dairy product	<subj>	vegetable	animal product	fruit
 apple	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
-oange	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
+orange	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
 banana	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	fruit	<subj>	vegetable	animal product	dairy product
 cruciferous vegetable	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	vegetable	<subj>	fruit	animal product	dairy product
 potato	product_type	<subj> is a <answer>	one example of a <answer> is <subj>	vegetable	<subj>	fruit	animal product	dairy product
