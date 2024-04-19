@@ -1,4 +1,4 @@
-# TAXonomic Inference benchmark dataset
+# `TAX`onomic `I`nference benchmark dataset
 
 This is a dataset to test the coherence of LLMs following model edits with respect to the properties of categories and their members. For example, one component of the benchmark is made using the following animal categories and a set of properties about each different kind of animal.
 
@@ -39,8 +39,6 @@ In light of the directionality of causal language models (predicting left to rig
 
 - **Forward**: "A sound a Holstein makes is [bark / moo / tweet / hiss]"
 - **Reverse**: "Bark is a sound made by a [Holstein / Labrador / Siamese / Owlet]"
-
-**NOTE:** The edit evaluation dataset (`edits-evaluation.csv`) only tests properties that should be different following an edit.
 
 ## Dataset Building Project Structure
 
