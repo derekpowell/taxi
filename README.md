@@ -1,6 +1,6 @@
 # TAXonomic Inference benchmark dataset
 
-This is a dataset to test the coherence of LLMs following model edits with respect to the properties of categories and their members. An initial benchmark is made using the following animal categories and a set of properties about each different kind of animal.
+This is a dataset to test the coherence of LLMs following model edits with respect to the properties of categories and their members. For example, one component of the benchmark is made using the following animal categories and a set of properties about each different kind of animal.
 
 | entity_type | typical_token | rare_token |
 |-------------|---------------|------------|
