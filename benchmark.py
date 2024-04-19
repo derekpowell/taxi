@@ -24,7 +24,7 @@ device = torch.device("cuda")
 
 
 ## --- set up test mode (or not)
-MODE_ARGS = ["read_baseline"] # []
+MODE_ARGS = [] # []
 
 ## --- load data
 
@@ -34,7 +34,7 @@ def load_result(filename):
 
 baseline_df, edits_df, eval_df = load_data()
 
-prefix_fwd, prefix_rev, prefix_single = load_prefixes(verbose = False)
+# prefix_fwd, prefix_rev, prefix_single = load_prefixes(verbose = False)
 
 
 ## -- set up models and do edits with different methods
