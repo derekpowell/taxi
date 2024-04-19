@@ -1,0 +1,43 @@
+---
+title: "TAXI - Human Response Analysis"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+d <- read_csv("human-responses.csv")
+```
+
+```{r}
+d %>% 
+  filter(pass) %>% 
+  filter(property != "category_membership") %>% 
+  summarize(acc = mean(correct), SE = sqrt(mean(correct) * (1- mean(correct))/ n()), N = n()) %>% 
+  arrange(-acc)
+```
+
+```{r}
+d %>% 
+  filter(pass) %>% 
+  filter(property != "category_membership") %>% 
+  mutate(
+    property_type = if_else(orig_answer_fwd == answer_fwd, "shared", "unshared")
+  ) %>% 
+  group_by(property_type) %>% 
+  summarize(acc = mean(correct), SE = sqrt(mean(correct) * (1- mean(correct))/ n()), N = n()) %>% 
+  arrange(-acc)
+```
+
+```{r}
+d %>% 
+  filter(property != "category_membership") %>% 
+  filter(pass) %>% 
+  mutate(
+    property_type = if_else(orig_answer_fwd == answer_fwd, "shared", "unshared")
+  ) %>% 
+  filter(property_type == "unshared") %>% 
+  group_by(token_type) %>% 
+  summarize(acc = mean(correct), SE = sqrt(mean(correct) * (1- mean(correct))/ n()), N = n()) %>% 
+  arrange(-acc)
+```
