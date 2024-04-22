@@ -1,10 +1,3 @@
-import os
-if os.path.isdir('/scratch/dmpowell'):
-    os.environ['TRANSFORMERS_CACHE'] = '/scratch/dmpowell/.cache/huggingface'
-    os.environ['HF_DATASETS_CACHE'] = '/scratch/dmpowell/.cache/huggingface/datasets'
-print(os.getenv('TRANSFORMERS_CACHE'))
-print(os.getenv('HF_DATASETS_CACHE'))
-
 import numpy as np
 import torch
 from transformers import GPTJForCausalLM, AutoTokenizer, AutoModel, GPT2LMHeadModel, AutoModelForCausalLM
@@ -33,9 +26,6 @@ def load_result(filename):
     return(x)
 
 baseline_df, edits_df, eval_df = load_data()
-
-# prefix_fwd, prefix_rev, prefix_single = load_prefixes(verbose = False)
-
 
 ## -- set up models and do edits with different methods
 
