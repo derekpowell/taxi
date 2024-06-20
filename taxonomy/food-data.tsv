@@ -1,9 +1,9 @@
 entity	property	query_fwd	query_rev	answer_fwd	answer_rev	foil1	foil2	foil3
-cheese	comes_from	<subj> comes from	<answer> is how you get <answer>	cultured milk	<subj>	butchering an animal	growing on trees	the root of a plant
-meat	comes_from	<subj> comes from	<answer> is how you get <answer>	butchering an animal	<subj>	cultured milk	growing on trees	the root of a plant
-apple	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
-orange	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
-potato	comes_from	<subj> comes from <answer>	<answer> is how you get <answer>	the root of a plant	<subj>	cultured milk	butchering an animal	growing on trees
+cheese	comes_from	<subj> comes from <answer>	<answer> is how you get <subj>	cultured milk	<subj>	butchering an animal	growing on trees	the root of a plant
+meat	comes_from	<subj> comes from <answer>	<answer> is how you get <subj>	butchering an animal	<subj>	cultured milk	growing on trees	the root of a plant
+apple	comes_from	<subj> comes from <answer>	<answer> is how you get <subj>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
+orange	comes_from	<subj> comes from <answer>	<answer> is how you get <subj>	growing on trees	<subj>	cultured milk	butchering an animal	the root of a plant
+potato	comes_from	<subj> comes from <answer>	<answer> is how you get <subj>	the root of a plant	<subj>	cultured milk	butchering an animal	growing on trees
 cheese	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in fat and protein	<subj>	high in protein	rich in vitamins
 meat	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	high in protein	<subj>	high in fat and protein	rich in vitamins
 apple	nutrients	<subj> is <answer>	a food that is <answer> is <subj>	rich in vitamins	<subj>	high in protein	high in fat and protein
